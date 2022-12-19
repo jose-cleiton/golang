@@ -10,7 +10,7 @@ func main() {
 	var d string
 	var e *int
 
-	fmt.Printf("%v %v %v %q %v", a, b, c, d, e)
+	fmt.Printf(" int: %v\n float64: %v\n bool: %v\n string: %q\n ponteiro: %v", a, b, c, d, e)
 
-	
+
 }
