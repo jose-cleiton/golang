@@ -23,9 +23,13 @@ func main() {
 	fmt.Println("Teste " + string(97))
 
 	fmt.Println("Teste " + string(rune(97)))
-	// string para int correto
+	// int para string  correto
 	fmt.Println("Teste " + strconv.Itoa(97))
 
+	// string para int
+	num, _ := strconv.Atoi("123")
+	fmt.Println(num - 122)
+	
 
 	
 
