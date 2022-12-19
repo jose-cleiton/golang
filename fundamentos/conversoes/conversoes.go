@@ -29,7 +29,14 @@ func main() {
 	// string para int
 	num, _ := strconv.Atoi("123")
 	fmt.Println(num - 122)
-	
+
+	b, _ := strconv.ParseBool("true")
+	if b {
+		fmt.Println("Verdadeiro")
+	}	
+
+
+
 
 	
 
