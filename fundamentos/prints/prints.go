@@ -22,7 +22,9 @@ func main() {
 	b := 1.9999
 	c := false
 	d := "opa!"
-	fmt.Printf("%d %f %.1f %t %s", a, b, b, c, d)
+	fmt.Printf("\n%d %f %.1f %t %s", a, b, b, c, d)
+	// %v imprime o valor da variável forma genérica
+	fmt.Printf("\n%v %v %v %v", a, b, c, d)
 }
 
 
