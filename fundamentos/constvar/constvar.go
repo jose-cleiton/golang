@@ -23,6 +23,8 @@ func main() {
 
 	const e, f bool = true, false
 
+	g,h,i := 2, false, "epa!"
+
 
 
 	area:= pi * math.Pow(raio, 2)
@@ -34,4 +36,5 @@ fmt.Println("Nome:", nome, "Idade:", idade)
 fmt.Println("Valor de a:", a, "Valor de b:", b)	
 fmt.Println("Valor de e:", e, "Valor de f:", f)
 fmt.Println("Valor de pi:", pi, "Valor de pi2:", pi2)
+fmt.Println("Valor de g:", g, "Valor de h:", h, "Valor de i:", i)
 }
