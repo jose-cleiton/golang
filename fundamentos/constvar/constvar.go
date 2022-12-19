@@ -1,6 +1,9 @@
 package main
 
-import "math"
+import (
+	"fmt"
+	"math"
+)
 
 
 func main() {
@@ -8,8 +11,27 @@ func main() {
 	const pi2 = 3.1415
 	var raio = 3.2
 
+	var (
+		nome = "João"
+		idade = 32
+	)
+
+	const (
+		a = 1
+		b = 2
+	)
+
+	const e, f bool = true, false
+
+
+
 	area:= pi * math.Pow(raio, 2)
 
 
+fmt.Println("Nome:", nome, "Idade:", idade)
+
 	println("Area da circunferencia é", area)
+fmt.Println("Valor de a:", a, "Valor de b:", b)	
+fmt.Println("Valor de e:", e, "Valor de f:", f)
+fmt.Println("Valor de pi:", pi, "Valor de pi2:", pi2)
 }
