@@ -20,7 +20,7 @@ func main() {
 	fmt.Println(notaFinal)
 
 	// cuidado
-	fmt.Println("Teste " + string(97))
+	fmt.Println("Teste " + string(177))
 
 	fmt.Println("Teste " + string(rune(97)))
 	// int para string  correto
