@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
 
@@ -15,5 +18,15 @@ func main() {
 	nota := 6.9
 	notaFinal := int(nota)
 	fmt.Println(notaFinal)
+
+	// cuidado
+	fmt.Println("Teste " + string(97))
+
+	fmt.Println("Teste " + string(rune(97)))
+	// string para int correto
+	fmt.Println("Teste " + strconv.Itoa(97))
+
+
+	
 
 }
