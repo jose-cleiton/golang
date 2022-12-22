@@ -1,15 +1,10 @@
 package main
 
-import (
-	"fmt"
-)
-
-func soma(a int, b int) int {
-	return a + b
-}
 
 func main() {
-	fmt.Println(soma(3, 4))
-	
+	resultado := soma(3, 4)
+	println(resultado)
+
+	imprimir("O resultado da soma é:", resultado)
 
 }
