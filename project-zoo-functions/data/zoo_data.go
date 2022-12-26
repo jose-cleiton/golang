@@ -1,8 +1,6 @@
 package main
 
-import (
-  "fmt"
-)
+
 
 type Resident struct {
   Name string
@@ -46,9 +44,9 @@ type Zoo struct {
 }
 
 
-func main(){
 
-	zoo := Zoo{
+
+var  Data = Zoo{
 		Species: []Species{
 			{
 				ID:          "0938aa23-f153-4937-9f88-4858b24d6bce",
@@ -244,11 +242,5 @@ func main(){
 
 	
 
-fmt.Println(zoo.Species[0].Name)  // imprime "lions"
-fmt.Println(zoo.Species[0].Location)  // imprime "NE"
-fmt.Println(zoo.Species[0].Residents[0].Name)  // imprime "Zena"
 
-
-
-}
 
