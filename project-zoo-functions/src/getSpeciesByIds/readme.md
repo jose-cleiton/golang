@@ -1,33 +1,23 @@
-### Bem-vindo à função getSpeciesByIds!
+# GetSpeciesByIds
 
-Esta função é responsável por buscar as espécies de animais a partir de seus ids.
-Ela pode receber um ou mais ids como parâmetros e retorna um array contendo as espécies referentes a esses ids.
+Esta função é responsável pela busca das espécies de animais por id. Ela retorna um array contendo as espécies referentes aos ids passados como parâmetro, podendo receber um ou mais ids.
 
-Exemplo de uso:
-```bash
-id1 := "0938aa23-f153-4937-9f88-4858b24d6bce"
-id2 := "ef3778eb-2844-4c7c-b66c-f432073e1c6b"
+## Parâmetros
 
-species, err := getSpeciesByIds(id1, id2)
-if err != nil {
-  fmt.Println(err)
-} else {
-  fmt.Println("species:", species)
-}
-```
-## Observações técnicas:
+- `zoo`: um struct do tipo `Zoo` que representa o zoológico.
+- `ids`: um array de strings contendo os IDs das espécies a serem buscadas.
 
+## Retorno
 
-* O parâmetro da função pode ser alterado para atender ao requisito proposto.
+Um array de structs do tipo `Species`, contendo as espécies referentes aos IDs fornecidos.
 
-* A função deve receber um ou mais ids como parâmetros.
-* A função lê os dados de uma fonte externa (arquivo JSON), portanto é necessário garantir que o arquivo esteja presente e estruturado corretamente.
-  
+## Exemplos
 
+```go
+import "zoo"
 
+// Busque a espécie de leão pelo ID
+species := zoo.GetSpeciesByIds(zoo, "0938aa23-f153-4937-9f88-4858b24d6bce")
 
-
-
-
-
-
+// Busque as espécies de leão e tigre pelos IDs
+species := zoo.GetSpeciesByIds(zoo, "0938aa23-f153-4937-9f88-4858b24d6bce", "e8481c1d-42ea-4610-8e11-1752cfc05a46")

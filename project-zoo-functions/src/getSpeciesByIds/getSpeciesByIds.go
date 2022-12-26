@@ -1,38 +1,61 @@
-package main
+package zoo
 
-import (
-  
-  "fmt"
-  "github.com/jose-cleiton/fofunc"
-
- 
-)
+type Resident struct {
+  Name string
+  Sex  string
+  Age  int
+}
 
 type Species struct {
-  Id          string   `json:"id"`
-  Name        string   `json:"name"`
-  Popularity  int      `json:"popularity"`
-  Location    string   `json:"location"`
-  Availability []string `json:"availability"`
-  Residents   []struct {
-    Name string `json:"name"`
-    Sex  string `json:"sex"`
-    Age  int    `json:"age"`
-  } `json:"residents"`
+  ID          string
+  Name        string
+  Popularity  int
+  Location    string
+  Availability []string
+  Residents   []Resident
 }
 
+type Employee struct {
+  ID          string
+  FirstName   string
+  LastName    string
+  Managers    []string
+  ResponsibleFor []string
+}
 
+type Hours struct {
+  Open  int
+  Close int
+}
 
-func main() {
-  id1 := "0938aa23-f153-4937-9f88-4858b24d6bce"
-  id2 := "ef3778eb-2844-4c7c-b66c-f432073e1c6b"
+type Prices struct {
+  Adult  float64
+  Senior float64
+  Child  float64
+}
 
-  // chamar a função getSpeciesByIds passando os ids como parâmetros
-  species, err :=   area.GetSpeciesByIds(id1, id2)
-  if err != nil {
-    fmt.Println(err)
-  } else {
-    fmt.Println("espécies com id", id1, "e", id2, ":", species)
+type Zoo struct {
+  Species    []Species
+  Employees  []Employee
+  Hours      map[string]Hours
+  Prices     Prices
+}
+
+func GetSpeciesByIds(zoo Zoo, ids ...string) []Species {
+  // Declare uma variável para armazenar as espécies encontradas
+  var species []Species
+
+  // Percorra a lista de espécies do zoológico
+  for _, s := range zoo.Species {
+    // Verifique se o ID da espécie atual está presente na lista de IDs fornecidos
+    for _, id := range ids {
+      if s.ID == id {
+        // Se estiver, adicione a espécie ao array de espécies encontradas
+        species = append(species, s)
+      }
+    }
   }
-}
 
+  // Retorne o array de espécies encontradas
+  return species
+}
