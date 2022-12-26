@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/jose-cleiton/area"
+)
 
 func main() {
 	p1 := Ponto{2.0, 2.0}
