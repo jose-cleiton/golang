@@ -25,7 +25,7 @@ type ZooData struct {
 
 func getSpeciesByIds(ids ...string) ([]Species, error) {
   // ler o arquivo JSON e armazenar os dados em uma variável do tipo ZooData
-  data, err := ioutil.ReadFile("data/zoo_data.json")
+  data, err := ioutil.ReadFile("./data/zoo_data.json")
   if err != nil {
     return nil, err
   }
