@@ -225,6 +225,20 @@ func main(){
 			},
 
 		},
+		Hours: map[string]Hours{
+			"Tuesday":   {Open: 8, Close: 6},
+			"Wednesday": {Open: 8, Close: 6},
+			"Thursday":  {Open: 10, Close: 8},
+			"Friday":    {Open: 10, Close: 8},
+			"Saturday":  {Open: 8, Close: 10},
+			"Sunday":    {Open: 8, Close: 8},
+			"Monday":    {Open: 0, Close: 0},
+		},
+		Prices: Prices{
+			Adult:  49.99,
+			Senior: 24.99,
+			Child:  20.99,
+		},
 
 	}
 
