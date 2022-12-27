@@ -5,21 +5,31 @@ import (
 	"fmt"
 
 	"github.com/jose-cleiton/data"
+	
+
 
 )
 
 
 func main() {
+	allLionsOlderThan12 := data.GetAnimalsOlderThan(data.Data, "lions", 12)
 
-	for _, species := range data.Data.Species {
-    fmt.Println(species.Name)
+
+	allTigersOlderThan5 := data.GetAnimalsOlderThan(data.Data, "tigers", 5)
+
+	
+
+	fmt.Println(allLionsOlderThan12)
+
+
+	fmt.Println(allTigersOlderThan5)
 }
 
 
 	
 
 	
-}
+
 
 	
 
