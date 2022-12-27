@@ -27,6 +27,14 @@ func main() {
 	fmt.Println(allTigersOlderThan5)
 
 	fmt.Println(data.GetSpeciesByIds(zoo, "0938aa23-f153-4937-9f88-4858b24d6bce"))
+
+	employee := data.GetEmployeeByName(
+
+		zoo.Employees, "Sharonda", "Spry",
+	)
+
+
+fmt.Println(employee)
 }
 
 
