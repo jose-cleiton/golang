@@ -1,17 +1,21 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
+	"math/math"
     "funcoes"
-    
-   
+    "strings"
 )
 
 func main() {
 
-    // A função "apply" recebe um inteiro "n" e uma função "f" como argumentos
-    // e retorna o resultado da aplicação de "f" a "n"
-    fmt.Println(funcoes.Apply(2, funcoes.MultiplyByTwo))
-    // Output: 4
+   
+    x := math.Sum(1,2,3)
+    fmt.Println(x)
+    a:=funcoes.Apply(2, funcoes.MultiplyByTwo)
+    fmt.Println(a)
+    j:= strings.Join([]string{"a", "b", "c"}, ",")
+    fmt.Println(j)
+    
    
 }
