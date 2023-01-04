@@ -1,0 +1,188 @@
+Which mode is not a valid way to access a file from within a Python script?
+
+1-read ('r')
+
+2-scan ('s')
+
+3-append ('a')
+
+4-write ('w')
+
+qual numero correto
+This code provides the of the list of numbers.
+
+num_list = [21,13,19,3,11,5,18]
+num_list.sort()
+num_list[len(num_list) // 2]
+
+1-mean
+
+2-median
+
+3-mode
+
+4-average
+
+What built-in Python data type is best suited for implementing a queue?
+
+1-None. You can only build a queue from scratch.
+
+2-set
+
+3-list
+
+4-dictionary
+
+qual numero correto?
+How do you add a comment to existing Python script?
+
+1-// This is a comment
+
+2-# This is a comment
+
+3- -- This is a comment
+
+4- /* This is a comment *\
+
+qual numero correto?
+Which command will create a list from 10 down to 1? Example:
+
+1-list (range(10,1,-1))
+
+2-list (reversed(range(1,10)))
+
+3-reversed(list(range(1,11)))
+
+4-list (reversed(range(1,11)))
+
+qual numero correto?
+What is a common use of Python's sys library?
+
+1-to capture command-line arguments given at a file's runtime
+
+2-to scan the health of your Python ecosystem while inside a virtual environment
+
+3-to take a snapshot of all the packages and libraries in your virtual environment
+
+4-to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
+
+qual numero correto?
+What is the correct way to call a function?
+
+1-def get_max_num([57, 99, 31, 18])
+
+2-get_max_num([57, 99, 31, 18])
+
+3-call.get_max_num([57, 99, 31, 18])
+
+4-call. (get_max_num)
+
+qual numero correto?
+Which collection type is used to associate values with unique keys?
+1-queue
+
+2-dictionary
+
+3-slot
+
+4-sorted list
+
+qual numero correto?
+Suppose you have a string variable defined as y = "stuff;thing;junk;". What would be the output from this code?
+
+z = y-split(';')
+len(z)
+
+1- 0
+2- 3
+3- 4
+4- 17
+
+qual numero correto?
+What is the primary difference between lists and tuples?
+
+1-You can access a specific element in a list by indexing to its position, but you cannot access a specific element in a tuple unless you iterate
+through the tuple.
+
+2-Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you
+can change the data that is inside them at any time.
+
+3-Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data
+that is inside them once you have created the tuple.
+
+4-Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.
+
+) errado com essa pergunta? Dar feedback
+
+
+
+qual numero correto?
+What is the output of this code?
+
+num_list = [1,2,3,4,5]
+num_list.remove(2)
+
+print (num_list)
+
+1-(3,4,5]
+
+2-(1,2,4,5]
+
+3-(1,2,3]
+
+4-(1,3,4,5]
+
+qual numero correto?
+What is the correct syntax for replacing the string app1e in the list with the string orange?
+
+1-my_list['orange'] = 1
+
+2-orange = my_list[1]
+
+3-my_list[{1] = ‘orange’
+
+4-my_list[1] == ‘orange’
+
+qual numero correto?
+How would you create a list of tuples matching these lists of characters and actors?
+
+characters = ["Iron Man", "Spider Man", "Captain America"]
+actors = ["Downey", "Holland", "Evans"]
+
+# example output : [("Iron Man", "Downey), ("Spider Man", "Holland"), ("Captain America", "Evans")]
+
+1- d = {}
+for x in range(1,len(characters) ):
+d[x] = actors[x]
+
+ 2-[(x,y) for x in characters for y in actors]
+
+3- zip(characters, actors)
+
+4- {x:y for x in characters for y in actors}
+
+qual numero correto?
+Which statement about strings in Python is true?
+
+1-Strings can only be enclosed in single quotes (').
+
+2-Single character strings must be enclosed in single quotes ('), and the rest must be enclosed in double quotes (").
+
+3-Strings can only be enclosed in double quotes (").
+
+4-Strings can be enclosed by double quotes (") or single quotes (').
+
+qual numero correto?
+What value would be returned by this check for equality?
+
+5 != 6
+
+1-False
+
+2-True
+
+3-yes
+
+4-None
+
+

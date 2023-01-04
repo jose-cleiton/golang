@@ -1,0 +1,334 @@
+qual numero certo?
+What is the most semantically accurate way to mark up this sentence? (Note: "TLAs" stands for "three-letter acronyms.")
+We are fond of our TLAs in web design.
+
+1- <p>We are fond of our <acronym title="three-letter acronyms">TLAs</acronym> in web design.</p>
+
+2- <p>We are fond of our TLAs in web design.</p>
+
+3-<p>We are fond of our <span title="three-letter acronyms">TLAs</span> in web design.</p>
+
+4-<p>We are fond of our <abbr title="three-letter acronyms">TLAs</abbr> in web design.</p>
+
+
+qual numero certo?
+What is the absolute URL for a webpage called page. htm1 that includes the base tag below?
+
+1- dir/page.html
+
+2-page.html
+
+3- http://www. linkedin.com/dir/page.html
+
+4- http://www. linkedin.com/page.html
+
+
+qual numero certo?
+What is the purpose of the class attribute?
+1-Classes allow CSS to select specific elements on the page. You may list as many class names within the class attribute as you wish, separated
+by spaces.
+
+2-Classes allow CSS to select specific elements on the page. You may list only one class name per class attribute.
+
+3-Classes allow CSS and JavaScript to select specific elements on the page. You may list only one class name per class attribute.
+
+4-Classes allow CSS and JavaScript to select specific elements on the page. You may list as many class names within the class attribute as you
+wish, separated by spaces.
+
+A opção correta seria a número 4:
+
+qual numero certo?
+What is the semantic method for marking up a video with a caption in browsers that support it?
+
+
+1- <video src="video.mp4">
+<track default
+
+</video>
+
+kind="captions"
+
+srclan
+
+ 
+
+en
+srce="video.vtt" />
+
+2-<video src="video.mp4">
+<track caption="video.vtt" />
+</video>
+
+3-<video src="video.mp4">
+<caption default
+srclang="en"
+src="video.vtt" />
+
+</video>
+4- <video src="video.mp4" caption="video.vtt">
+</video>
+
+
+What is wrong with this table?
+<table>
+<legend>A two body table!</legend>
+<col>
+<col>
+<tbody><tr>
+<td>Cell 1</td>
+<td>Cell 1</td>
+</tr></tbody>
+<tbody><tr>
+<td>Cell 1</td>
+<td>Cell 1</td>
+</tr></tbody>
+</table>
+
+1-legend is not allowed in a table element.
+
+2-legend must appear at the end of a table element.
+
+3-A table can have only one tbody element.
+
+4-All col elements must be wrapped in a colgroup element.
+
+quan opcao correta?
+Which video example will autoplay in most browsers?
+
+
+
+
+1- <video src="video.mp4" autoplay></video>
+
+
+2- <video src="video.mp4" autoplay="true"></video>
+
+
+3- <video src="video.mp4" autoplay="autoplay"></video>
+
+
+4- <video src="video.mp4" autoplay="yes"></video>
+
+quan opcao correta?
+Which image file referenced in this img element's srcset attribute should a browser on a small mobile phone load?
+
+1-medium. jpg
+
+2-large.jpg
+
+3-small.jpg
+
+4-none of them
+
+
+qual numero certo?
+What is the backward-compatible method of turning a circle in an SVG into a link?
+
+
+1-<a href="/our-circle/" xlink:href="/our-circle/"><circle cx="10" cy="10" r="5"/></a>
+
+2-<a href="/our-circle/"><circle cx="10" cy="10" 5"/></a>
+
+ 
+
+ 
+
+3-<html:a href="/our-circle/"><circle cx="10" cy="10" r="5"/></html:a>
+
+4-<a svg:href="/our-circle/"><circle cx="10" cy="10" 5"/></a>
+
+Which choice is the best way to mark up this layout?
+1-<h4><strong>Mailing Address</h4>
+<address><em>
+
+6410 via Real <br>
+
+Carpinteria, CA 93013<br>
+
+<a href="mailto: info@linkedin.com">info@linkedin.com</a>
+
+</em></address>
+
+2-<h4>Mailing Address</h4>
+<p><em>
+
+6410 Via Real <br>
+
+Carpinteria, CA 93013<br>
+
+<a href="mailto: info@linkedin.com">info@linkedin.com</a>
+</em></p>
+
+3-<p><strong>Mailing Address</strong></p>
+<p><em>
+
+6410 Via Real <br>
+
+Carpinteria, CA 93013<br>
+
+<a href="mailto: info@linkedin.com">info@linkedin.com</a>
+</em></p>
+
+4 <h4>Mailing Address</h4>
+<address>
+
+6410 via Real <br>
+
+Carpinteria, CA 93013<br>
+
+<a href="mailto: info@linkedin.com">info@linkedin.com</a>
+
+</address>
+
+
+
+How would you mark up a piece of ASCII art (an emoticon) in an accessible way?
+
+1-<dfn title="ASCII emoticon of a shrug">~\_(‘/)_/~</d£n>
+
+2-<label for="art">ASCII emoticon of a shrug</label><pre rol art">"\_(‘/)_/"</pre>
+
+
+ 
+
+3-<pre role="img" aria-label="ASCII emoticon of a shrug">~\_(‘/)_/~</pre>
+
+
+
+4-<pre role="emoticon" aria-label="A
+
+ 
+
+SCII emoticon of a shrug">~\_(‘/)_/~</pre>
+
+ 
+
+<pre role="emoticon" aria-label="ASCII emoticon of a shrug">\_(‘/)_/~</pre>
+
+A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct
+roles more broadly accessible?
+
+
+ 
+
+1-<aside role="sidebar">Sidebar...</aside><aside role="notes">Endnotes </aside>
+
+ 
+
+2-<aside role="complementary">Sidebar...</aside><aside role="supplementary">Endnotes. ..</aside>
+
+   
+
+3-<custom-sidebar aria-label="Sidebar">Sidebar...</custom-sidebar><custom-footnote aria-
+label="Endnotes">Endnotes. ..</custom-footnote>
+
+ 
+
+4-<aside aria-label="Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>
+
+
+Review the code below. How do you include subnavigation for Link 2 that includes a link?
+
+<nav><ul>
+<li><a href="#">Link 1</a></1li>
+<li><a href="#">Link 2</a></1li>
+<li><a href="#">Link 3</a></1li>
+
+</ul></nav>
+
+
+1-<nav><ul>
+">Link 1</a></1li>
+">Link 2</a></li>
+
+<li><a hre:
+
+ 
+
+<li><a hre:
+<ul>
+
+<li><a href="#">Link 2a</a></li>
+</ul>
+
+<li><a hre:
+
+ 
+
+">Link 3</a></li>
+
+</ul></nav>
+
+<ul><nav>
+<li><a href=
+
+<li><a hre:
+
+">Link 1</a></1li>
+">Link 2</a>
+
+ 
+
+ 
+
+ 
+
+<ul><nav>
+<li><a href="#">Link 2a</a></li>
+</nav></ul></1i>
+<li><a href="#">Link 3</a></li>
+</nav></ul>
+<nav><ul>
+
+">Link 1</a></1li>
+#">Link 2</a></1i>
+
+ 
+
+<nav><ul>
+<li><a href="#">Link 2a</a></1i>
+
+</ul></nav>
+<li><a hre:
+</ul></nav>
+
+ 
+
+">Link 3</a></li>
+
+
+
+
+Which example is missing a mandatory closing tag, making it invalid?
+
+
+1-<p>Simple paragraph
+
+2-<ul><li>Simple list</li>
+
+3-<dl><dt>Simple term<dd>Simple description</dl>
+
+4-<ul><li>Simple list</ul>
+
+What is the best semantic markup for this sentence?
+On July 21, 1969, Neil Armstrong said, "That's one small step for man, one giant leap for mankind."
+
+1-<p>On July 21, 1969, Neil Armstrong said, <q>"That's one small step for man, one giant leap for mankind."</q>
+</p>
+
+2-<p>On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, <q
+cite="https: //www.hq.nasa.gov/alsj/all/all.step.html">That's one small step for man, one giant leap for
+mankind .</q></p>
+
+ 
+
+3-<p>On July 21, 1969, Neil Armstrong said, <q cite="https://www.hq-nasa.gov/alsj/all/all.step.html">"That's
+
+one small step for man, one giant leap for mankind."</q></p>
+
+4-<p>On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, <q
+cite="https: //www.hq.nasa.gov/alsj/all/all.step.html">That's one small step for man, one giant leap for
+mankind .</q></p>
+
+a ee dae eo es
+

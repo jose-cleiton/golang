@@ -1,0 +1,210 @@
+What is the most accurate example of the Liskov substitution principle?
+
+1-public class Car{
+
+}
+
+public class FlyingCar extends Car{
+public void £ly(){}
+}
+
+2-public class Tesla extends FlyingCar{}
+
+public class Honda extends Car{}
+
+3-public class Car{
+public void £ly(){}
+
++
+
+public class Tesla Car{}
+public class Honda Car{}
+
+public class Car{
+
+}
+
+public class FlyingCars extends Car{
+public void £ly(){}
+
+}
+
+public class Tesla FlyingCar{}
+
+public class Honda Car{}
+
+4- public class Car{
+public void fly(){}
+
+}
+
+public class Tesla extends Car{}
+
+public class Honda extends Car{}
+
+
+
+When and how often is a static constructor called?
+
+ 
+
+1-It is called initially when an object is created and only one time.
+
+2-It is called when an object is destroyed and only one time.
+
+3-It is created one time, when the object is discarded.
+
+4-It is called initially when an object is created and called with every new object instance.
+
+
+Objects are passed by “
+
+1-value or reference, depending on the programming language used
+
+2-value
+
+3-value or reference, depending on program
+
+4-reference
+
+
+  What is a reference to an object?
+
+1-It is the physical address of an object.
+
+2-It is the address where the variables and methods of an object are stored.
+
+3-It is a shallow pointer that contains the address of an object.
+
+4-It is the address of variables only—not the methods of an object.
+
+Which relationship best illustrates an abstract-concrete class relationship?
+
+1-color : red
+
+2-cat : kitten
+
+3-planet : moon
+
+4-truck : window
+
+If a language just implements pass-by-value parameters to functions, can the objects passed as parameters be set to new instances inside the
+function and their new value will return to the caller?
+
+ 
+
+1-No, a local copy will be initialized and will be lost as soon as it is out of scope.
+
+2-Yes, since the value is a reference even though it is passed by value, it can be done.
+
+3-No, you will get a compilation error.
+
+4-Yes, but only if it is a reference and not a primitive class.
+
+
+Which statements best describe the Gang of Four design patterns called Memento and Observer?
+
+1-Memento alters an object's behavior when its state changes. Observer encapsulates an algorithm inside a class.
+
+2-Memento notifies multiple classes of changes. Observer captures and restores an object's internal state.
+
+3-Memento defers the exact steps of an algorithm to a subclass. Observer defines a new operation to a class without change.
+
+4-Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.
+
+
+You have modules that are dependent on each other. If you change one module, you have to make changes in the dependent modules. What term is
+used to describe this problem, and what is a potential solution?
+
+1-Dependency. A solution is to implement polymorphism and abstraction to change and extract dependent elements of a module so that it
+functions on its own.
+
+2-Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection.
+
+3-Cohesion. A solution is to show that each module has certain responsibilities and to use an anticohesive design pattern.
+
+4-Encapsulation. A solution is to implement one of the SOLID principles to ensure the modules do not encapsulate with each other.
+
+Which choice is a benefit of using dependency injection?
+
+1-lazy initialization
+
+2-loose coupling
+
+3-data abstraction
+
+4-code reusability
+
+
+What is the function of a user diagram?
+
+1-It lists all actors for each use case.
+
+2-It connects actors to use cases.
+
+3-It links actors to roles played in all use cases.
+
+4-It minimizes the number of actors required.
+
+
+How do object behaviors and attributes differ?
+
+1-Behaviors describe dynamic properties; attributes are static.
+
+2-Attributes apply only to a specified object; behaviors apply to other linked objects.
+
+3-Behaviors are vector quantities; attributes are scalars.
+
+4-Attributes describe a state; behaviors describe a change.
+
+In addition to responsibilities, what should be listed on Class-responsibility-collaboration (CRC) cards?
+
+1-attributes
+
+2-the programmer responsible for implementation
+
+3-interacting classes
+
+4-which programming language will be used
+
+
+de acordo com a pergunta qual a mais correta?
+What is the difference between an interface and an abstract class?
+
+1-Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from more than one abstract class but can
+implement only one interface.
+
+2-Abstract classes can contain code or data. Interfaces do not contain code or data. A class can inherit from only one abstract class but can
+implement an unlimited number of interfaces.
+
+3-Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can
+implement an unlimited number of interfaces.
+
+4-Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can
+implement only one interface.
+
+
+de acordo com a pergunta qual a mais correta?
+How many levels does multilevel inheritance allow in a program?
+
+1-as many levels of inheritance as required
+
+2-as many levels of inheritance as required within 10 minutes
+
+3-only 10 levels of inheritance
+
+4-only the amount of levels memory permits, divided by processor speed
+
+de acordo com a pergunta qual a mais correta?
+Which statement is true?
+
+1-A default constructor can be called explicitly.
+
+2-A default constructor cannot be defined by the coder.
+
+3-A default parameter's constructor is not equivalent to the default constructor.
+
+4-A default constructor is inherited from a parent class.
+
+
+

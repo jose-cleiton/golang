@@ -1,0 +1,193 @@
+Which messaging service enables an event-driven programming model?
+CO Notification Hub
+
+1-O Event Hub
+
+2- event Grid
+
+
+3- Service Bus
+
+
+qual numero correto
+You are selecting Azure technologies for a new app that will process print jobs in a facility with thousands of printers. A pool of worker processes will
+send jobs to printer and report results when jobs are complete. Requirements for the solution are: Worker processes will retrieve and process
+messages as capacity permits; if a worker process or printer fails, a worker process should be able to retrieve message and resume processing; and
+the solution should maintain a central (server-side) log of messages processed. Which solution should you use?
+1-Service Bus
+
+2-Queue Storage
+
+3-Event Grid
+
+4-Event Hub
+
+You have a set of SQL databases used with various PaaS applications with predictable usage patterns. You are planning to move these databases to
+Azure SQL and need to choose the right deployment option. Your priorities are minimizing costs, and having the ability to assign CPU and storage
+resources to individual databases. Which option should you choose?
+
+1-Azure SQL Database
+
+2-SQL Managed Instance
+
+3-Azure SQL elastic pool
+
+4-SQL on Azure VMs
+
+
+You need to host a community website for your neighborhood association. The site contains static content, including HTML, CSS, and a few pages
+with client-side JavaScript. The site contains no sensitive information, and CORS support is unnecessary. The association has limited funds to pay for
+hosting, so the solution should be as inexpensive as possible. Which option should you use?
+
+
+1-App Service on a Consumption plan
+
+2-static website with Azure CDN
+
+3-Azure Storage static website
+
+4-App Service on a Standard plan
+
+Your microservices application includes a logging component that performs a large number of sequential writes. Which type of Azure Storage should
+you use?
+
+1-append blob
+
+2-page blob
+
+3-Table storage
+
+4-block blob
+
+You need to configure user access to Azure DevOps agent pools to meet the following requirements: Use an agent pool when authoring build or
+release pipelines for the project; view the agent pool and agents of the organization; and use the principle of least privilege. Which role memberships
+are required for the Azure DevOps organization and the project?
+
+1-Organization: Reader Project: Service Account
+
+2-Organization: Administrator
+Project: Service Account
+
+3-Organization: Reader
+Project: Administrator
+
+4-Organization: Service Account
+Project: Reader
+
+You need to create a tech support chatbot for Microsoft Teams that interacts with users based on natural language processing (NLP). The bot should
+be capable of processing differing sentence structures. Which Microsoft Bot Framework component will deliver this functionality?
+
+
+1-LUIS
+
+2-QnA Maker
+
+3-Form Recognizer
+
+4-Text to Speech
+
+You need to provision a port mapping on the underlying node that allows the application to be accessed directly with the IP address and port on the
+cluster node. Which service type should you provision?
+
+1-ExternalName
+
+2-Cluster IP
+
+3-NodePort
+
+4-LoadBalancer
+
+You need to populate a newly created SQL database from your release pipeline in Azure DevOps. The solution should minimize deployment time and
+deployment errors. Which approach should you use?
+
+1-Populate from a SQL file.
+
+2-Populate from a CSV file.
+
+3-Restore from a backup file.
+
+4-Populate from a BACPAC file.
+
+You are configuring a release pipeline in Azure DevOps. You need to reference several application variables across multiple pipelines at deployment
+time. How should you store application variables?
+
+1-Configure a variable group.
+
+2-Store secrets in Azure Key Vault.
+
+3-Configure release variables.
+
+4-Store secrets in a configuration file.
+
+You are deploying three Azure VMs with an Azure Resource Manager (ARM) template. Which ARM function implements the iteration loop to provision
+the right number of VMs?
+
+"type": "Microsoft .compute/virtualMachines",
+
+ 
+
+name": “[concat(‘myvm', Va%y
+“apiVersion": "2016-04-30-preview",
+“location”: "[parameters('location')]",
+“copy”: {
+
+"name": "virtualMachineLoop",
+
+“count": “[parameters('numberOfInstances')]"
+
+br
+
+1-createArray()
+
+2-copyIndex()
+
+3-max()
+
+4-indexOf ()
+
+The Kineteco Inventory App uses an Azure SQL Database instance to store application and store inventory data. Store employees report occasional
+periods where queries in the web interface never return data. You suspect a database issue and need to identify the performance issue as soon as
+possible. The resource health dashboard reports "No health related issues found." What should you do?
+
+1-Enable Intelligent Insights.
+
+2-Configure App Insights to alert admins when web interface experiences latency.
+
+3-Run the troubleshooting wizards under Resource and solve problems.
+
+Configure an alert rule to email DBAs when DTU usage hits 100%.
+
+What is the difference between a user-assigned managed identity and a system-assigned managed identity?
+
+2-The lifecycle of a system-managed identity is managed separately from the resource.
+
+3-The lifecycle of a user-managed identity is managed separately from the resource.
+
+4-With a system-assigned managed identity, Azure manages the password for you.
+
+5-With a user-assigned managed identity, Azure manages the password for you.
+
+
+You have created an Azure CLI script for a release pipeline in Azure DevOps. You need to reference the working directory for the running job. Which
+variable should you reference?
+
+
+1-Agent .WorkFolder
+
+2-Agent .BuildDirectory
+
+3-Agent .ToolsDirectory
+
+4-Agent .HomeDirectory
+
+Your web app hosted on Azure VMs generates a large number of random (non-sequential) writes. Which storage type should you select for your
+application?
+
+1-queue storage
+
+2-page blob
+
+3-block blob
+
+4-table storage
+
