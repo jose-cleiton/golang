@@ -1,0 +1,165 @@
+Which statement about event emitters is false?
+
+1- The emit method allows an arbitrary set of arguments to be passed to the listener functions.
+
+2- When an event emitter object emits an event, all of the functions attached to that specific event are called synchronously.
+
+3- Any values returned by the listeners for an emitted event are ignored.
+
+4- Event names must be camelCase strings.
+
+_________________________________
+
+Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?
+
+1- resolve
+
+2- reverse
+
+3- lookup
+
+4- resolve4
+
+_________________________________
+
+What is used for parsing and running JavaScript in Node.js?
+
+1- Google V8
+
+2- EventLoop
+
+3- Libuv
+
+4- Express.js
+
+_________________________________
+
+Is it possible to write tests in Node.js without an external library?
+
+2- yes, through the console module
+
+3- yes, through the debugger module
+
+
+4- yes, through the assert module
+
+
+
+
+_________________________________
+
+Which of the following Buf fer class methods returns an uninitialized buffer?
+
+1- concat,
+
+2- allocUnsafe
+
+3- alloc
+
+4- from
+
+_________________________________
+
+
+
+If EventEmitter is in scope, which line of code will have an event emitter emitting a change event?
+
+
+
+1-new EventEmitter('change');
+
+2-EventEmitter.emit('change');
+
+3-(new EventEmitter()).emit('change');
+
+4-EventEmitter.new().emit('change');
+
+_________________________________
+
+How does it affect the performance of a web application when an execution path contains a CPU-heavy operation, such as calculating a long
+Fibonacci sequence?
+
+1-As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is
+completed.
+
+2-As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade.
+3-As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade.
+
+4-The current thread will block until the execution is completed and the operating system will spawn new threads to handle incoming requests.
+This can exhaust the number of allowed threads (255) and degrade performance over time.
+
+_________________________________
+
+How can ECMAScript modules be used natively in Node?
+
+1-ECMAScript modules can be used natively in Node only by using a compiler like Babel.
+
+2-ECMAScript modules can be used natively in Node only by using a bundle like webpack.
+
+3-ECMAScript modules cannot be used natively in Node.
+
+4-ECMAScript modules can be used natively in Node with the .mjs file extension.
+
+_________________________________
+
+What is the importance of having good practices around status code in your response?
+
+1-Response codes are the only way you can tell what is happening on the server.
+
+2-It contains information about the current performance of the server.
+
+3-It indicates success or failure to the client and helps with testing.
+
+4-It is not important to have good practices regarding status codes.
+
+_________________________________
+
+Which special object is an instance of EventEmitter?
+
+1-root
+
+2-Buffer
+
+3-process
+
+4-require
+
+_________________________________
+
+
+Which choice is not a Node global object?
+
+
+1-process
+
+2-Buffer
+
+3-setTimeout
+
+4-exports
+
+_________________________________
+
+
+
+Which file does node-gyp use to read the build configuration of a module?
+
+1- gyp.json
+
+2- package.gyp
+
+3-  binding.gyp
+
+4- -gypre
+
+_________________________________
+
+When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?
+
+1- http.ServerResponse
+
+2- http.ServerRequest
+
+3- http.ClientRequest
+
+4- http. IncomingMessage

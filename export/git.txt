@@ -1,0 +1,215 @@
+What is a remote repository?
+
+1-a version of the repository that mirrors changes made in the local repository's master branch for open-source collaboration efforts
+
+2- a version of the repository hosted on the internet or network that is pushed to or pulled from by collaborators
+
+3- a read-only version of the repository stored on a backup server in case local repositories become lost or corrupted
+
+4- the lead repository elected by the Git arbitrator found within local repositories of collaborating team members
+
+_________________________________
+
+How can you display a list of files added or modified in a specific commit?
+
+1-Run git commit --info with the commit hash.
+
+2- Use the diff£-tree command with the commit hash.
+
+3- Find the commit in the remote repository, as that's the only place where that kind of information is stored.
+
+4- Access the commit stash data with git stash.
+
+_________________________________
+
+
+Which statement is true of the git push command?
+
+1- Only annotated tags are automatically pushed to the remote repository with a commit.
+
+2- Commits can be tagged only when they are created.
+
+3- Tags are pushed to the remote repository with their respective commits.
+
+4- By default, a push doesn't send tags to the remote repository.
+
+_________________________________
+
+___will rewind your project to a specific point in time, losing all commits that came after it. ___ will keep all the changes in those rewound
+commits as local modifications.
+
+
+
+git
+
+git
+
+git
+
+git
+
+reset HEAD; git reset HEAD*~
+
+rewind; git update
+
+reset --soft; git reset --hard
+
+ 
+
+reset --hard; git reset
+
+_________________________________
+
+
+How does the -p option change the behavior of the git add command?
+
+
+1-It allows developers to interactively choose which changes to tracked files are staged and outputs the differences for review.
+
+2-It causes tracked files in the parent directory to be included in the staged files.
+
+3-It automatically pushes changes to the corresponding branch on the remote repository.
+
+4-It allows developers to interactively choose which files are committed and outputs the differences for review.
+
+____________________________________________
+
+After accidentally deleting a branch in your local repository, how can you recover it?
+
+1-It cannot be recovered.
+
+2-Find the hash of the branch with the log command, then execute git checkout -b <branchname> <hash>.
+
+3-Find the hash of the branch with the ref 1og command, then execute git checkout -b <branchname> <hash>.
+
+4-Execute git checkout -b <branchname>.
+
+
+____________________________________________
+
+
+After modifying some existing files in a repository, you decide to discard the changes. What command can you use?
+
+1-git checkout .
+
+2-git restore
+
+3-git undo
+
+4-git clean
+
+____________________________________________
+
+
+
+What is the operation doing given the Git commands below?
+
+$ git bisect start
+$ git bisect bad 5d41402abc4b2a76b9719d911017c592
+$ git bisect good 69faab6268350295550de7d587bc323d
+
+
+1-It marks a commit for deletion using a known bad commit and known good commit to determine which commit introduced a bug.
+
+2-It identifies a bad commit and resets the HEAD using a known bad commit and known good commit.
+
+3-It runs a merge of a good commit that is discovered using a known bad commit and known good commit.
+
+4-It performs a binary search using a known bad commit and known good commit to determine which commit introduced a bug.
+
+
+____________________________________________
+
+How would you create a custom shortcut or command across your Git environment?
+
+1-Create an alias using the git config command.
+
+2-Run git hotfix with the shortcut name.
+
+3-Use the git custom-key command.
+
+4-Assign a shortcut or command using git options file.
+
+____________________________________________
+
+If you have several commits for a single feature, what is the most efficient way to restructure your commit history?
+
+1-Use git cherry-pick to place the commits in another branch.
+
+2-Use git squash to consolidate the commits together into a single coherent commit.
+
+3-Use git stash to consolidate the commits under a new hash.
+
+4-Delete the task commits and recommit with a new message.
+
+____________________________________________
+
+After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in the future?
+
+git push -u origin master
+
+
+
+1-git push
+
+2-git push master
+
+3-git push -u
+
+4-git push origin
+
+____________________________________________
+
+
+Which command can be used to list the branches that have been merged into the currently checked-out branch?
+
+1-git branch --merged
+
+2-git branch --status
+
+3-git status --merged
+
+4-git master --status
+
+
+
+____________________________________________
+
+Which use case is not a good candidate for a Git hook?
+
+1-enforcing commit rules
+
+2-continuous integration
+
+3-increasing code coverage
+
+4-state dependent environment changes
+
+
+
+____________________________________________
+
+How would you delete unreachable objects older than a specified time from your project database?
+
+ 
+
+1-git delete --inert <time>
+2-git branch --rebase <time>
+
+3-git cache --obsolete <time>
+
+4-git prune --expire <time>
+
+
+
+____________________________________________
+
+What conflicts can occur when forcing a push after rebasing?
+
+1-Nothing, it's common practice to force a push after rebasing.
+
+2-The remote master branch could have existing changes overwritten.
+
+3-The origin URL will be reset to its default value.
+
+4-The current HEAD will be deleted and can't be reinstated.

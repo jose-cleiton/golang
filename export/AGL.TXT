@@ -1,0 +1,185 @@
+Who is responsible for a Scrum team's performance?
+
+the team
+
+the Product Owner
+
+the Scrum Master
+
+the Engineering Manager
+
+_________________________________
+
+Which statement about the Agile Manifesto is true?
+
+It was first published as part of Jim Highsmith's doctoral thesis.
+
+It was written in response to documentation-heavy software development project practices.
+
+It was written in 2001 and is obsolete.
+
+It was written via crowdsourcing and its authors are unknown.
+
+_________________________________
+
+Having a mindset focused on growth and opportunity is healthy for Agile team members. How can you display a growth mindset?
+
+Quit while you're ahead.
+
+Point out the failures of others.
+
+See challenges as opportunities.
+
+
+Celebrate only when you succeed.
+
+_________________________________
+
+Progress toward a sprint goal is in jeopardy because you have not received sales data. What should you do?
+
+
+
+Check the Product Owner's schedule and book time for a meeting.
+
+Work around the issue until the last responsible moment to solve it.
+
+Be sure to mention the issue in the next Scrum.
+
+Share the problem with your team to see if they can create a solution.
+
+_________________________________
+
+What is the term for a team member who is "T-shaped"?
+
+cross-functional
+
+jack-of-all-trades
+
+apprentice developer
+
+generalizing specialist
+
+_________________________________
+
+Which statement describes the flow of work in the Scaled Agile Framework?
+
+Itis a "pull" system.
+
+It is neither "push" nor "pull."
+
+Itis a "push" system.
+
+Itis "push" at the top and "pull" at the bottom.
+
+
+_________________________________
+
+You are facilitating a meeting to decompose user stories and, unexpectedly, a development team member cannot attend. What should you do?
+
+Ask all meeting participants what they want to do about the one person's absence.
+Reschedule the meeting for when all necessary people can attend.
+Hold the meeting and update the person who could not attend later.
+
+Ask the person who could not attend to reschedule the meeting based on their availability.
+
+_________________________________
+
+
+Where are teams most likely to find the first signs of potential problems?
+
+Sprint Planning
+
+Daily Scrums
+
+Retrospectives
+
+Sprint Demos
+
+
+
+_________________________________
+
+What is the Product Owner's role in deciding the priority of work in the sprint backlog?
+
+None—the Scrum Master should prioritize the work in the sprint backlog.
+
+The PO should prioritize the items in the sprint backlog.
+
+The developers prioritize work unless they cannot complete it, in which case the PO should prioritize the remaining work.
+
+None—the developers should prioritize the work in the sprint backlog.
+
+_________________________________
+
+The team is not going to complete its Sprint Commitment. As the Team Facilitator, what should you do?
+
+Point out the reasons why and collaborate on solutions.
+
+Report this at the Sprint Review.
+
+Advise the PO as soon as possible.
+
+Ask the PO to extend the sprint.
+
+_________________________________
+
+Which statement is not true about pair programming?
+
+It is a great way to teach someone who is new to the team.
+
+It has been discredited because it is too expensive.
+
+In pair programming, two developers share one computer and take turns at the keyboard.
+
+The code produced by two developers who are collaborating is typically higher quality than if they were working alone.
+
+_________________________________
+What is the name of the technique in which a story is broken down, input splits the data, and it results in a new output?
+
+structured coding
+
+thin vertical slice
+
+ITIOO story format
+
+input-output processing
+
+
+_________________________________
+
+What should happen if the Product Owner does not accept a story by the end of the iteration?
+
+The team does not get credit for the story's points in its velocity calculation.
+
+The story should be shown to stakeholders for their feedback.
+
+The acceptance criteria should be adjusted to reflect the work completed.
+
+The story should be sliced to reflect the work completed.
+
+
+_________________________________
+
+What is a difference between a team's task board and a Kanban?
+
+A Kanban has an explicit rule to limit WIP.
+
+A Kanban shows the status of the work items.
+
+A Kanban shows the backlog of work.
+
+A Kanban does not use a Definition of Done.
+
+_________________________________
+
+What is the definition of capacity?
+
+It means the team determines their availability for the next sprint.
+
+It is the number of teams that a Team Facilitator can support concurrently.
+
+It is an inventory of the team's knowledge and skills that is used to plan the work that they do.
+
+It is the maximum number of stories that will be allowed in a sprint.
+
+
