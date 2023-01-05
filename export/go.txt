@@ -1,0 +1,307 @@
+What is the select statement used for?
+
+1-executing a different case based on the type of a variable
+
+2-executing a different case based on which channel returns first
+
+3-executing a different case based on the value of a variable
+
+4-executing a function concurrently
+
+
+
+_________________________________________________
+
+qual o nemro correto?
+
+A switch statement____ its own lexical block. Each case statement____ an additional lexical block.
+
+1-creates; creates
+
+2-creates; does not create
+
+3-does not create; does not create
+
+4-does not create; creates
+
+
+
+_____________________________________________________
+
+qual o numero correto?
+
+How can you compile main.go to an executable that will run on OSX arm64?
+
+1-Set GOOS to darwin and GOARCH to arm64.
+
+2-Set GOOS to osx and GOARCH to arm64.
+
+3-Set GOOS to arm64 and GOARCH to osx.
+
+4-Set GOOS to arm64 and GOARCH to darwin.
+
+
+
+_____________________________________________________
+
+qual o numero correto?
+
+How is the behavior of t. Fatal different inside a t .Run?
+
+1-t.Fatal does not crash the test harness, preserving output messages.
+
+2-t.Fatal stops execution of the subtest and continues with other test cases.
+
+3-There is no difference.
+
+4-t.Fatal stops all tests and contains extra information about the failed sub test.
+
+
+
+\
+_____________________________________________________
+
+qual o numero correto?
+
+
+How can you avoid a goroutine leak in this code?
+
+
+func findUser(ctx context.Context, login string) (*User, error) {
+ch := make(chan *User)
+go func() {
+ch <- findUserInDB(login)
+tO
+
+select {
+case user := <-ch:
+return user, nil
+case <-ctx.Done():
+return nil, fmt.Errorf("timeout")
+
+}
+}
+
+1-Make ch a buffered channel.
+
+2-Use a sync.WaitGroup.
+
+3-Add a default case to the select.
+
+4-Use runtime.SetFinalizer.
+
+
+
+
+
+
+
+
+
+
+ 
+
+_____________________________________________________
+
+qual o numero correto?
+What will be printed in this code?
+
+
+var stocks map[string]float64 // stock -> price
+price stocks ["MSFT"]
+fmt .Printf("%f\n", price)
+
+ 
+
+1- 0
+2- nan
+
+3- The code will panic.
+
+4- 0.000000
+
+
+
+_____________________________________________________
+
+qual o numero correto?
+
+What is the correct syntax to start a goroutine that will print Hello Gopher !?
+
+ 
+
+1-go fmt.Println("Hello Gopher!
+
+2-go func() { fmt.Print1n("Hello Gopher!") }
+
+3-Go fmt.Print1n("Hello Gopher!
+
+
+4-go(fmt.Print1n("Hello Gopher!"))
+
+
+
+_____________________________________________________
+
+qual o numero correto?
+
+How can you make a file build only on Windows?
+
+1-Check runtime .Goos.
+
+2-Add a _ prefix to the file name.
+
+3-Adda// +build windows comment at the top of the file.
+
+4-Adda// +build windows comment anywhere in the file.
+
+
+
+_____________________________________________________
+
+qual o numero correto?
+
+What is the common way to have several executables in your project?
+
+1-Have a pkg directory and a directory per executable inside it.
+
+2-Comment out main.
+
+3-Have a omd directory and a directory per executable inside it.
+
+4-Use build tags.
+
+
+
+_____________________________________________________
+
+qual o numero correto?
+What will this code print?
+
+var i int8 = 120
+it= 10
+fmt .Print1n(i)
+
+1- 0
+
+2- -126
+
+3-NaN
+
+4-130
+
+
+
+_____________________________________________________
+
+qual o numero correto?
+What will be the output of this program?
+
+ch make(chan int)
+close(ch)
+
+val <-ch
+
+fmt .Print1n(val)
+
+
+1- It will panic.
+
+2-It will deadlock.
+
+3-0
+
+4-NaN
+
+
+
+_____________________________________________________
+
+qual o numero correto?
+
+
+Given the definition of worker below, what is the right syntax to start a start a goroutine that will call worker and send the result to a channel
+named ch?
+
+
+func worker(m Message) Result
+
+
+
+
+1-go ch <- worker(m)
+
+2-go func() {
+x := worker(m)
+ch <- r
+
++O
+
+3-go func() {
+rx := worker(m)
+x -> ch
+
++O
+
+4-go func() {
+xr := worker(m)
+
+ch <- r
+
+
+_____________________________________________________
+
+qual o numero correto?
+
+What does the built-in generate command of the Go compiler do?
+
+1-It has subcommands mocks and tests to generate relevant . go source files.
+
+2-It looks for files with names that end with _generate.go, and then compiles and runs each of these files individually.
+
+3-It scans the project's source code looking for //go: generate comments, and for each such comment runs the terminal command it specifies.
+
+4-It provides subcommands sal, json, yaml, and switches --schema and --objects to generate relevant code.
+
+
+
+_____________________________________________________
+
+qual o numero correto?
+Which types can Go developers define methods for?
+
+
+1-all named types not built-in to Go, such as type Example int butnot int, type Example struct{ } but not struct, etc.
+
+ 
+
+2-all types
+
+3-only types named struct, such as type Example struct{.
+
+ 
+
+4-only types named struct, map, and slice, suchas type Example struct{...}
+
+
+
+_____________________________________________________
+
+qual o numero correto?
+
+What would happen if you attempted to compile and run this Go program?
+
+package main
+var GlobalFlag string
+func main() {
+
+print ("["+GlobalFlag+"]")
+}
+
+1-It would compile but then panic because GlobalF lag was never initialized.
+
+2-It would compile and print [ }.
+
+3-It would compile and print nothing because "["+nil+" }" is also nil.
+
+4-It would not compile because GlobalF1lag was never initialized.

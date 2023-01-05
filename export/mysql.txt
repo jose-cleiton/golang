@@ -1,0 +1,225 @@
+Qual a o número da resposta correta?
+A stored routine is a set of SQL statements stored on the server and takes form as either a procedure or a function. Which statement cannot be used
+inside stored routines?
+
+1-DECLARE
+
+2-USE
+
+3-SELECT
+
+4-SET
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+
+Which query lists the databases on the current server?
+
+1-SHOW DB;
+
+2-LIST DATABASES;
+
+3-SHOW DATABASES;
+
+4-LIST ALL DATABASES;
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+
+Which statement can you use to load data from a file into a table?
+
+1-extended INSERT statement
+
+2-cat file | mysql
+
+3-LOAD DATA LOCAL INFILE
+
+4-LOAD DATA INFILE
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+
+How are permissions implemented in MySQL?
+
+1-encrypted algorithms
+
+2-access control lists
+
+3-user settings
+
+4-administrator schema
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+
+You are managing a database with a table called customers. You created a temporary table also called customers with which you are working for
+the duration of your session. You need to re-create the temporary table with different specifications. Which command do you need to run first?
+
+1-DROP TEMP TABLE customers;
+
+2-CREATE TEMPORARY TABLE customers;
+
+3-DROP TABLE customers;
+
+4-DROP TEMPORARY TABLE customers;
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+
+What is the correct usage of ENUM in MySQL?
+
+Create
+
+Create table size
+
+Create table ENUM
+
+
+Create table size
+
+
+
+
+
+
+table size
+
+(ENUM ('Small', 'Medium','Large'));
+
+(name ('Small', 'Medium', 'Large'));
+
+(name ENUM ('Small', 'Medium', 'Large'));
+
+(mame: ENUM['Small', ‘Medium’, 'Large']);
+
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+What is the MySQL perror command-line utility used for?
+
+1-to display storage error codes
+
+2-to display operating system error codes
+
+3-to display your version of MySQL
+
+4-to display default settings that are in error
+
+What is the MySQL perror command-line utility used for?
+oO to display storage error codes
+
+@ to display operating system error codes
+
+O to display your version of MySQL.
+
+@ to display default settings that are in error
+
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+In the diagram below, the field price is declared as type DECIMAL. What would be a more efficient declaration for this field?
+
+1-DOUBLE
+
+2-FLOAT
+
+3-DECIMAL (10,2)
+
+4-NUMERIC
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+
+In which table does MySQL store passwords for user accounts?
+1- mysql.admin
+
+2-  amysqi.accounts
+
+3- mysqi-user
+
+4- nysal. passwords
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+You have a table that contains customers and their address spread across different fields (e.g., street number, zip code, city, state). What would be
+the best clause to get customers who live in either New York, Detroit, or Boston?
+
+1- HAVING
+
+2-BETWENN
+
+3- IN
+4-LIKE
+
+
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+Later versions of MySQL support the native JSON data type for storing JSON documents. What is a drawback of JSON columns?
+1- JSON columns cannot be indexed directly.
+
+2- JSON columns are inefficient for storing JSON documents.
+
+3- JSON documents cannot be validated when stored in JSON columns.
+
+4- JSON columns cannot be normalized.
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+You must ensure the accuracy and reliability of the data in your database. You want to make sure that the data contained in a column is unique. What
+type of constraints are you assigning?
+
+1- column level
+2- function level
+
+3- database level
+
+4- row level
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+You are working with an UPDATE trigger on the employee table in this diagram. How can you access the new value for the address inside the trigger?
+
+1-Use OLD. address.
+
+2-Use DELETED. address.
+
+3-Use INSERTED. address.
+
+4-Use NEW. address.
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+Current versions of MySQL support the full-text search feature on some storage engines, as an alternative to using the LIKE operator and regular
+expressions. Which statement would you run to enable a full-text index for the column description in the table Car?
+
+1- ALTER TABLE Car ADD FULLTEXT(description) ;
+2- SEARCH FULLTEXT(description) Car
+3- ENABLE FULLTEXT(description) Car
+
+4- MERGE TABLE Car ADD FULLTEXT(description)
+
+_______________________________________________________
+
+Qual a o número da resposta correta?
+You are building a table schema to store student grades as a letter (A, B, C, D, or F). Which column type is the best choice?
+1- ENUM
+
+2- vexr
+
+3- tonerext
+
+4- warcuar
