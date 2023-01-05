@@ -1,0 +1,217 @@
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+What improvements do access control lists (ACLs) have over standard Linux permissions?
+
+ACLs allow a file to be owned by more than one user and group.
+
+ACLs provide additional flags such as append-only and immutable.
+
+ACLs allow permissions to be set for more than one user or group on a file or directory.
+
+ACLs provide mandatory access control (MAC) functionality through SELinux for files and directories.
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+When would this system cron job run its task?
+
+ol***
+
+only on Mondays
+
+every minute of the hour
+
+every hour of every day
+
+every day at 1:00 AM
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+When installing downloaded packages on a Redhat-based distribution manually using RPM, what may you have to do first?
+
+Provide the --resolve option so RPM resolves all package dependencies.
+
+Compile the package source code.
+
+Agree to end-user license agreements.
+
+Download all dependencies and install them before installing the desired package.
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+An rsyslogd filter determines which items in a log file to act on. What is it made up of?
+a filter and a priority
+
+a filter and an action
+
+a facility and a priority
+
+a facility and an action
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+journald differs from traditional logging services such as rsyslogd and syslogd because its logs are ___ by default.
+
+text
+
+stored remotely
+
+not persistent
+
+persistent
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+In BASH parsing, which expansion happens first?
+
+brace expansion
+
+variable expansion
+
+word splitting
+
+filename expansion (globbing)
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+What would you type to list all systemd service unit files, whether they are enabled or not?
+
+systemctl list-unit-files -at service
+
+systemctl list-services
+
+systemctl list-unit-files -t service
+
+chkconfig --list-all
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Which kernel module do you need to load to use interface bonding?
+
+team
+
+bonding
+
+netbond
+
+bond
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you
+run?
+
+systemctl stop crond
+
+systemctl disallow crond
+
+systemct1] mask crond
+
+systemctl disable crond
+_________________________________________________________________________
+
+
+Qual o número da alternativa correta?
+
+When pattern matching using a glob or regular expression, how many characters does a character set match?
+
+
+one
+
+one or more
+
+any number of characters
+
+zero or one
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Which choice will not print "Hello World" in the terminal?
+
+myVar=5
+[{ $myvar -gt 10 ]] || echo "Hello World"
+
+myVar=5
+[{ $myvar -lt 10 ]] && echo “Hello World"
+
+myVar=5
+{{ $myvar -1t 10 ]] || echo "Hello World"
+
+myVar=5
+[f ! $myvar -gt 10 ]] && echo "Hello World"
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta? 
+Which feature does LVM2 included in most Linux distributions not support?
+
+increasing LV size while mounted
+
+volume striping
+
+reducing LV size while mounted
+
+volume mirroring
+_________________________________________________________________________
+
+
+Qual o número da alternativa correta?
+
+Which option would you choose to force grep to use a basic regular expression (BRE)?
+
+grep -e
+
+grep -G
+
+
+grep -B
+
+
+grep -E
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+ 
+
+What is the difference between using = and in a BASH double square bracket if conditional?
+
+if [[{ $FILE $GLOB ]] ;then
+
+
+The single equal sign (=) checks equality; the double equal sign (==) checks strict equality.
+
+The double equal sign (==) is an assignment operator; the single equal sign (=) checks equality.
+
+The single equal sign (=) is an assignment operator; the double equal sign (==) checks equality.
+
+There is no difference.
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+To search from the current cursor position up to the beginning of the file using VIM, type and then the search criteria.
+
+?
+/search
+
+/
+\
+
+
+
+
+
+
+
+

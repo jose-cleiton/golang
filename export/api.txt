@@ -1,0 +1,208 @@
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+Which REST constraint specifies that there should be no shared context?
+
+Stateless
+
+Client-Server
+
+Uniform Interface
+
+Cacheable
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+What should you add to a Cache-Control response header to specify that a response should not be stored in an intermediary cache?
+
+private
+
+restricted
+
+no-proxy
+
+client-only
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+To create a new resource, what HTTP response code should you receive?
+
+200
+
+204
+
+405
+
+201
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+API traffic that is entirely internal to your organization is normally called_____.
+
+internal traffic
+
+east-west traffic
+
+north-south traffic
+
+inbound traffic
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Which REST constraint allows for the presence of caching, routing, and other systems between the client and server?
+
+Layered System
+
+Stateless
+
+Client-Server
+
+Cacheable
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Which property would you use to include subresources directly into a JSON document?
+_embedded
+
+resources
+
+subresources
+
+_links
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+Within OAuth, what component validates the user's identity?
+
+client
+
+authorization server
+
+resource server
+
+not specified
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+Which is not a method for API authentication or authorization?
+
+OAuth
+
+username and password
+
+API Keys
+
+biometrics
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+
+When a user attempts to access a record that is not their own, which HTTP response code is the most appropriate?
+
+
+401
+
+404
+
+403
+
+405
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+What is the best way to track SDK and version usage?
+
+tracking downloads
+
+user agents
+
+Accept headers
+
+polling users
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+When you get a 429 response code, what should you do next?
+
+Check your JSON structure.
+
+Slow down your requests.
+
+Check the API uptime status.
+
+Check your API key.
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+Using OAuth, what scope would you request for write access to the API?
+
+read-write
+
+write
+
+admin
+
+It varies from API to API.
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+When validating a JWT, what are some of the claims that you must confirm? (Select all that apply.)
+A. The exp (expiration) has not passed.
+
+B. The algorithm is sufficient.
+
+C. The signature matches the payload.
+
+D. The token was Base64 encoded.
+
+E. The iss (issuer) is the auth server you expect.
+
+F. There is a refresh token.
+
+G. The cid (client ID) is the client you expect.
+
+H. The token was encrypted.
+
+B,C,F,G
+
+A,B, E,H
+
+A,C,E,G
+
+A,D,G,H
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+Which property would you use to include references to other resources in a JSON document?
+
+_links
+
+resources
+
+_embedded
+
+subresources
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Which OAuth grant type can support a refresh token?
+
+Authorization Code Grant
+
+Implicit Grant
+
+Authentication Grant
+
+Client Credentials Grant
+
+

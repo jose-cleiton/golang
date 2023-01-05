@@ -1,0 +1,253 @@
+_____________________________________________________
+
+Qual a o número da resposta correta?
+
+What is this pattern called?
+
+const [count, setCount] = useState(0);
+
+1- object destructuring
+2- spread operating
+
+3- array destructuring
+
+4- code pushing
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+
+The code below is rendering nothing and generating this error: "ReactDOM is not defined." How do you fix this issue?
+
+import React from "react";
+import { createRoot } from "react-dom";
+
+const element = <h1>Hi</h1>;
+// Note: error on the line below.
+const root = ReactDOM.createRoot (document .getElementById("root"));
+
+root .render (element) ;
+
+1- ReactDOM(document .getElementById("root"));
+2- DOM(document .getElementById("root"));
+3- renderDOM(document .getElementById("root"));
+
+4- createRoot (document .getElementById("root"));
+
+\
+________________________________________________________
+
+Qual a o número da resposta correta?
+
+This code is part of an app that collects Pokemon. The useSt ate hook below is a piece of state holding onto the names of the Pokemon collected so
+far. How would you access the collected Pokemon in state?
+
+const PokeDex = (props) => {
+const [pokeDex, setPokeDex] = useState([]);
+MT vee
+
+1- props. pokeDex
+
+2- this.props.pokepex
+3- pokevex
+
+4- setPokepex()
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+When using a portal, what is the second argument?
+ReactDOM.createPortal(x, y)
+
+1- the current state
+2- the App component
+3- the rendered element
+
+4- the DOM element that exists outside of the parent component
+
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+Given this code, what will be printed in the <div> tag?
+
+const MyComponent = ({ children }) => (
+<div>{children. length}</div>
+dF
+<MyComponent>
+
+<p>
+
+Hello <span>World!</span>
+
+</p>
+
+<p>Goodbye</p>
+</MyComponent>;
+
+1- 1
+
+2- undefined
+
+3- 2
+
+4- It will produce an error saying "cannot read property "length" of undefined."
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+You are rendering a list with React when this message appears in the console: "Warning: Each child in a list should have a unique key prop." How do
+you fix this issue?
+
+1- when iterating over the list items, add a unique key prop to each list item.
+2- Add a key prop with the same value to each item in the list.
+3- Clear the console warnings.
+
+4- Use the usezd hook to generate a unique key for each element in the list.
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+What does this React element look like?
+
+React .createElement (
+"hi",
+null,
+“What's happening?"
+
+1-<hl props={null}>What's happening?</h1>
+
+2-<h1 id="component">What's happening?</h1>
+
+3-<hl>What's happening?</h1>
+
+
+ 
+
+4-<h1 id="Null">What's happening?</h1>
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+What is the name of the compiler used to transform JSX into JavaScript?
+1- Babel
+
+2- ReactDOM
+
+3- Browser Buddy
+
+4- JSX Editor
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+What would you pass to the onClick prop that will allow you to pass the initName prop into the greet handler?
+
+const Greeting = ({ initName }) => {
+const greet = (name) => console.log("Hello, " + name + "!");
+return <button onClick={ ... }>Greeting Button</button>;
+
+}
+
+
+1-this.hug(initName)
+
+2-() => hug(initName)
+
+3-(name) => this.hug(name)
+
+4-hug
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+What do you call a React component that catches JavaScript errors anywhere in the child component tree?
+
+1- error helpers
+
+2- error catchers
+
+3- error bosses
+
+4- error boundaries
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+All React components must act like__ with respect to their props.
+
+
+1- monads
+
+2- pure functions
+3- recursive functions
+
+4- higher-order functions
+
+
+
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+What is [e. target. id] called in this code snippet?
+
+const handleChange = (e) => {
+setState((prevState) => ({ ...prevState, [e.target.id]: e.target.value }));
+}
+
+1-a set value
+
+2-a JSX code string
+
+3-a computed property name
+
+4-a dynamic key
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+What is wrong with this code?
+
+const MyComponent = () => (
+<h1>Hello</h1>
+
+<p>Hello again</p>
+
+};
+
+1-React does not allow components to return more than one element.
+
+2-String literals must be surrounded by quotes.
+
+3-The component needs to use the return keyword.
+
+4-React components cannot be defined using functions.
+
+
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+
+Which function from React can you use to wrap Component imports to load them lazily?
+
+1- lazy
+2- split
+3- fallback
+
+4- memo
+
+________________________________________________________
+
+Qual a o número da resposta correta?
+Which attribute is React's replacement for using innerHTML in the browser DOM?
+
+1-strangeHTML
+
+2-injectHTML
+
+3-dangerouslySet InnerHTML
+
+4-weirdSetInnerHTML
+

@@ -1,0 +1,223 @@
+Why are ad-hoc queries useful?
+
+They autogenerate reports.
+
+They do not have to use the same operators.
+
+You do not need to structure the database to support them.
+
+They run faster than indexed queries.
+_________________________________________________________________________
+
+
+Qual o número da alternativa correta?
+When using aggregation $convert, which is not a parameter?
+
+onError
+
+input
+
+
+_________________________________________________________________________
+
+
+Qual o número da alternativa correta?
+
+What is the purpose of an arbiter in a replica set?
+
+It monitors replica set and sends email in case of failure.
+
+It holds a backup copy of the database.
+
+It reboots the failed server.
+
+It casts the tie-breaking vote in an election.
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+A MongoDB instance has at least what three files?
+
+data, namespace, and journal
+
+data, log, and journal
+
+journal, data, and database
+
+namespace, journal, and log
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+A compound index allows you to____.
+
+use more than one field per index
+
+calculate interest quickly
+
+accomplish nothing, since compound indexes are not allowed in Mongo
+
+combine fields in different collections
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+In the MongoDB shell, what programming language is used to make queries?
+
+sQL
+
+Bash
+
+Python
+
+JavaScript
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+What is the correct option to set up Kerberos when starting MongoDB?
+
+--setAuth method=Kerberos
+
+--setParameter authenticationMechanisms=GSSAPI
+
+--setParam auth=K
+
+--setAuthentication=GSSAPI
+
+
+_________________________________________________________________________
+
+
+Qual o número da alternativa correta?
+What is not a standard role in MongoDB?
+
+dbadmin
+
+read/write
+
+restore
+
+delete collections
+
+
+_________________________________________________________________________ 
+
+
+Qual o número da alternativa correta?
+When using the mongoimport command, how can you drop the database before importing?
+
+Use the mongooverwrite command instead of mongoimport.
+
+Use the -d option.
+
+Drop the database manually before importing.
+
+Use the —drop option.
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+
+How do you create a new MongoDB user?
+
+
+db.newUser({})
+
+db. insert({user: 1})
+
+db.createUser({})
+
+db. customers .newUser({})
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+Given a cursor named myCursor, pointing to the customers collection, how to you get basic info about it?
+
+myCursor.stats()
+
+myCursor .dump()
+
+myCursor. info()
+
+myCursor.explain()
+
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+What is true about indexes?
+
+They speed up reads and writes.
+
+They secure the database from intruders.
+
+They speed up read access while slowing down writes.
+
+They speed up write access while slowing down reads.
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+What happens to a Replica set oplog if it runs out of memory?
+
+The oplog will stop recording logging information.
+
+The MongoDB instance will fail.
+
+The oplog will be saved on one of the secondary servers.
+
+The oplog is a capped collection and cannot run out of memory.
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+What is the internal data structure of a MongoDB document?
+
+ORM (object relational mode)
+
+MBF (MongoDB binary format)
+
+BSON (Binary JSON)
+
+JSON (JavaScript Object Notation)
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+You want to know how many types of items you have in each category. Which query does this?
+
+db.product .aggregate({$sum: {_id: "$category", count: {$group:1}}})
+
+db.product .aggregate({$count: {_id: "$category", count: {$sum:1}}})
+
+db.product .aggregate({$group: {_id: "$category", count: {$sum:1}}})
+
+db.product .group({_id: "$category", count: {$sum:1}})
+
+
+
+
+
+
+
+
+
+
+

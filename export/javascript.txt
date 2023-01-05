@@ -1,0 +1,351 @@
+________________________________________________________
+
+Vou refazer as perguntas de MongoDB e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+What is the output of this code?
+
+var cat = {name:"Athena"};
+
+function swap(feline) {
+feline.name = "Wild";
+feline = {name:"Tabby"};
+
+swap(cat) ;
+console. log(cat.name) ;
+
+
+1-Athena
+
+2-Wild
+
+3-Tabby
+
+4-undefined
+
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+ What will be logged to the console?
+
+var a = ['dog', ‘cat’, ‘hen'];
+a[100] = ‘fox’;
+
+console.1log(a.length) ;
+
+1- 3
+
+2- 4
+
+3- 101
+
+4- 100
+
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+ What does this code print to the console?
+
+let animals = [{ type: "lion" }, "tiger"];
+
+let clones = animals.slice();
+
+clones[0].type = "bear";
+clones[1] = "sheep";
+
+console.log(animals[0].type, clones[0].type);
+console.log(animals[1], clones[1]);
+
+
+1- lion bear
+sheep sheep
+
+2-bear bear
+tiger tiger
+
+3-bear bear
+tiger sheep
+
+4-lion bear
+tiger sheep
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+ Which document method is not used to get a reference to a DOM node?
+1- document . getElement sByClassName ()
+
+2- document .queryselectorall()
+
+3- document .queryselector()
+
+4- document .getwode();
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+ Which snippet could you add to this code to print "{"type":"tiger"}" to the console?
+
+let cat = { type: "tiger", size: "large" };
+let json = /* Snippet Here */;
+
+console.log(json); //prints {"type":"tiger}
+
+
+
+1-JSON.stringify(cat, ["type"]);
+
+2-JSON. stringify(cat);
+
+3-cat.toJSON("type");
+
+4-JSON.stringify(cat, /type/);
+
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+ How would you add a data item named animal with a value of sloth to local storage for the current domain?
+
+ 
+
+1- localstorage.setItem({animal:"sloth"});
+2- document .localstorage.setItem("animal","sloth");
+
+3- ocaistorage.setItem("animal","sloth");
+
+4- LocalStorage.setItem("animal","sloth");
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+ What type of function can have its execution suspended and then resumed at a later point?
+1- Arrow function
+
+2- Asyne/Await function
+
+3- Generator function
+
+4- Promise function
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+ What is the output of this code?
+
+var obj;
+console.log(obj)
+
+1-null
+
+2-undefined
+
+3-{}
+
+4-ReferenceError: obj is not defined
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+ Which statement prints "roar" to the console?
+
+var sound = "grunt";
+
+var bear = { sound: "roar"};
+
+ 
+
+function roar(){
+
+console. 1log(this.sound) ;
+}
+
+1-bear[roar]();
+
+2-roar.apply(bear);
+
+3-bear.bind(roar) ;
+
+4-roar.bind(bear) ;
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+ Which line could you add to this code to print "jaguar" to the console?
+
+let animals = ["jaguar","eagle"];
+
+//Missing Line
+
+console.log(animals.pop()); //Prints jaguar
+
+1-animals.filter(e => e === "jaguar");
+
+2-animals.shift();
+
+3-animals.pop();
+
+4-animals.reverse();
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+What is wrong with this code?
+
+const foo = {
+bar(){
+
+console.log("Hello, world!");
+
+ 
+
+"Albert",
+age: 26,
+}
+
+
+
+
+
+1- The function bar needs to be defined as a key/value pair.
+
+2- Trailing commas are not allowed in JavaScript.
+
+3- Funetions cannot be declared as properties of objects.
+
+
+
+4-Nothing. There are no errors.
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+ What is the output of this code?
+
+class RainForest{
+static minimumRainFall = 60;
+
+let congo = new RainForest();
+RainForest.minimumRainFall = 80;
+
+console. 1log(congo.minimumRainFal1) ;
+
+
+1-None of these answers, as static is not a feature in Javascript.
+
+2-60
+
+3-80
+
+4- undefined
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+What is the output of this code?
+
+let rainForests = ["Amazon","Borneo","Cerrado","Congo"];
+rainForests.splice(0,2);
+
+console. log(rainForests) ;
+
+1- [ ‘amazon’, 'Borneo', ‘Cerrado’, ‘Congo’ }
+2- { 'Amazon', ‘Borneo’ ]
+3- 1 ‘cerrado’, ‘congo’ }
+
+4- ['amazon, 'Borneo’, 'Cerrado']
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+
+What does this code print to the console?
+
+let rainForestAcres = 10;
+
+let animals = 0;
+
+while(rainForestAcres < 13 || animals <= 2){
+
+rainForestAcres++
+animals += 2;
+
+console. log (animals) ;
+
+1- 6
+
+2- 4
+
+3- 8
+
+4- 2
+
+________________________________________________________
+
+Vou refazer as perguntas de javascript e gostaria qua vc me desse qual
+ o numero da alternativa correta 
+ nao precisa explicação
+Which snippet could you insert to this code to print "swim" to the console?
+
+let animals = ["eagle", "osprey", "salmon" ];
+
+let key = animal => animal
+
+ 
+
+"salmon";
+
+if(/* Insert Snippet Here */){
+console.log("swim") ;
+}
+
+
+
+1-animals .some(key)
+
+2-animals. filter(key)
+
+ 
+
+3-animals.every(key)
+
+4-animals.some(key).length === 1
+
+
+

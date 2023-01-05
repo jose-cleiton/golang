@@ -1,0 +1,236 @@
+_______________________________________________________
+
+Qual a o número da resposta correta?
+
+Given this enumeration, how would you access the integer-typed value of AppState. Loading?
+
+enum AppState { Offline, Loading, Ready }
+
+1- string currentstate = AppState.Loading. integralval;
+2-int currentState = AppState.Loading.rawValue;
+
+3-string currentState = (string)AppState.Loading;
+
+
+
+4-int currentState = (int)AppState.Loading;
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+What kind of values can arrays store?
+
+1- class and struct instances
+
+2- key-value pairs of any C# supported type
+
+3- multiple variables, or collections, of the same type
+
+4- unordered collections of numeric values
+
+
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+What is the difference between the ref and out keywords?
+
+1- Variables passed to out specify that the parameter is an output parameter, while ref specifies that a variable may be passed to a function
+without being initialized.
+
+2- Variables passed to out can be passed to a function without being initialized, while ref specifies that the value is a reference value that can be
+changed inside the calling method.
+
+3- Variables passed to ref specify that the parameter is an output parameter, while out specifies that a variable may be passed to a function
+without being initialized.
+
+4- Variables passed to ref can be passed to a function without being initialized, while out specifies that the value is a reference value that can be
+changed inside the calling method.
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+How would you determine if a class has a particular attribute?
+
+
+1- Attribute.GetCustomAttribute (typeof (ExampleController), typeof (SubControllerActionToViewDataAttribute) )
+
+
+2- attribute.Getcustomattribute, typeof (SubControllerActionToViewDataAttribute)
+
+ 
+3- typeof (MyPresentationModel) . Should() .BeDecoratedWith<Someattribute>() ;
+
+
+4- var type = typeof (SomeType) ;
+var attribute = type.GetCustomaAttribute<SomeAttribute>() ;
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+
+Do you need to declare an out variable before you use it?
+1- No, out variables are no longer part of C#.
+2- No, you can declare an out variable in the parameter list.
+
+3- Yes, you must declare an out variable if it is a primitive type.
+
+4- Yes.
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+What are the four keywords associated with exception handling in C#?
+1- try, catch, invalid, valid
+
+2- try, catch, finally, throw
+
+3- finality, throw, invalid, valid
+
+4- try, vali, finally, throw
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+What character would you use to start a regular expression pattern at a word boundary?
+
+1- \a
+
+2- \w
+
+3- \b
+
+4- d
+
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+
+How do you indicate that a string might be null?
+1- string myVariable = null
+
+2- A string cannot be nullable.
+
+3- string(nullable) myVariable
+
+4- string? myvariable
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+ 
+
+What is the difference between a.Equals(b) anda
+
+1- The .Equais method compares reference types while == compares primitive value types.
+
+ 
+
+
+2- The .Equais method compares primitive values while == compares all values.
+
+ 
+
+3- The . Equals method compares reference identities while the == compares contents.
+
+4- The .Equais method compares contents while == compares reference identity.
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+
+
+How would you access the last two people in an array named People?
+1- You cannot do this in C#.
+
+2- Peopiet[..*3]
+
+3- Peopiet[..*2]
+4- Peopiet[^2]
+
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+
+How would you write a delegate named ResultCallback with an int parameter named responseCode?
+1- public delegate void ResultCallback(int responseCode) ;
+
+2- public void delegate ResultCallback<int responseCode>;
+
+3- public delegate void ResultCallback<(int) responseCode>;
+
+4- public delegate ResultCallback(int responseCode) ;
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+What is this code an example of?
+
+private static object objA;
+
+private static object objB;
+
+private static void performTaskA()
+{
+lock (objB)
+{
+Thread.Sleep(1000) ;
+lock (objA) { }
+
+private static void PerformTaskB()
+{
+lock (objA)
+{
+lock (objB) { }
+
+}}
+
+1- aprivate class that uses multithreading
+:
+
+2- potential deadlock
+
+3- thread mismanagement
+
+4- muttithread coding
+
+
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+In which of these situations are interfaces better than abstract classes?
+1- Interfaces are a legacy of older versions of C#, and are interchangeable with the newer abstract class feature.
+
+2- When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share
+characteristics, use an abstract class.
+
+3- When you need to define an object type's characteristics, use an interface. When you need to define an object type's capabilities, use an
+abstract class.
+
+4- You should use both an interface and an abstract class when defining any complex object.
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+What is a delegate?
+1- acustom variable type that can be used in abstract classes
+
+2- a specific value type that can be used only in callback methods
+3- a variable that holds a reference to a value type and its content
+
+4- atype that holds a reference to a method with a particular parameter list and return type
+
+_____________________________________________________
+
+Qual a o número da resposta correta?
+Which code snippet correctly declares a variable named userID with a public get and private set?
+1- public int usertp { get; private set; }
+
+2- public int userrD [get, private set];
+
+3- public int userrp <get, set>;
+
+4- public int user1p = { public get, private set};

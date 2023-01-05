@@ -1,0 +1,325 @@
+Vou fazer umas perguntas sobre API REST
+vou dar 4 alternativas gotaria qu vc me respondesse com o numero da alternativa 
+de acordo com a ordem que é apresentada logo após a pergunta
+
+You want to restrict the values entered in a cell to a specified set, such as Hop, Skip, Jump. Which type of data validation should you use?
+list
+
+custom
+
+input range
+
+database
+
+_________________________________________________________________________
+
+
+Qual o número da alternativa correta?
+To insert a new column to the left of a specific column, right-click the header containing the column's letter and select_____
+
+Insert Column
+
+Insert
+
+Paste Special
+
+Insert Column Left
+
+_________________________________________________________________________
+
+
+Qual o número da alternativa correta?
+
+You select cell A1, hover the pointer over the cell border to reveal the move icon, then drag the cell to a new location. Which ribbon commands
+achieve the same result?
+
+Cut and Fill
+
+Cut and Paste
+
+Copy and Paste
+
+Copy and Transpose
+_________________________________________________________________________
+
+
+Qual o número da alternativa correta?
+
+Which value is calculated when the formula =AVERAGE (G2 :G6 ) /AVERAGE(C2:C6) is entered into cell H7?
+ 
+
+A
+
+Representative Avg. Call Length
+
+ID Number
+
+68022
+73465
+45296
+62047
+69061
+
+Averages:
+
+(Mins.)
+
+9.3
+61
+5.0
+67
+9.8
+78
+
+ 
+
+iG D
+‘Avg. Avg. Customer
+Number of Call Satisfaction
+calls Rating
+55.8 4,90
+66.5 114
+73.8 1.70
+m7 4.85
+17.4 4,79
+78.0 3.48
+
+E| Fr 6
+Shift Market Annual
+Code Region Sales
+7 | 21 $12,336
+10 14 $27,678
+3 | 24 $17,907
+7 | 12 $5076
+18 $26,942
+$17,988
+
+average number of minutes per call
+
+average annual sales
+
+average annual sales per minute
+
+average annual sales per call
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+Given the image below, what happens if you type "P" in cell A6?
+
+NOU BPWNPR
+
+A B
+Salesperson
+Jones
+Perez
+Lee
+Morgan
+
+A pop-up list appears with the previous four names.
+
+The word "Perez" appears and immediately the active cell moves down.
+
+The letter "P" appears.
+
+The word "Perez" appears and the active cell remains in Edit mode.
+
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Which chart type provides the best visual display of the relationship between two numeric variables?
+
+
+combo chart
+
+XY scatter chart
+
+radar chart
+
+box and whisker chart
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Column A contains a list of book titles. To ensure that no book title appears more than once, first you select column A. What should you do next?
+On the Data ribbon, click Data Validation.
+
+On the Home ribbon, click Clear > Duplicates.
+
+Right-click the column head and select Unique.
+
+On the Data ribbon, click Remove Duplicates.
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+In this worksheet, how are cells A2:D2 related to cell C4?
+
+a . fe | =PMT(B2/C2,C2"D2,A2)
+
+A B G D
+1 Loan Amount Interest Rate PeriodsperYear Years
+Ba S$: 10.00 4.75% 12 30
+a)
+4 | Payment
+
+ Cells A2:D2 are comments relating to the formula in cell C4.
+
+Cells A2:D2 are precedents of the formula in cell C4.
+
+Cells A2:D2 are the source of an error in the formula in cell C4.
+
+Cells A2:D2 are dependents of the formula in cell C4.
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Cell D1 contains the value 7.877. You want cell D1 to display this value as 7.9 but keep the original number in calculations. How can you accomplish
+this?
+
+Use the ROUND( ) function.
+
+In the Cells group on the Home tab, click Format > Format Cells. Then click the Alignment tab and select Right Indent.
+
+Click the Decrease Decimal button once.
+
+Click the Decrease Decimal button twice.
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
+
+ 
+
+ 
+
+ 
+
+ 
+
+etna El Life expectancy Ei
+
+ 
+
+MLaos 67.6
+China 76.7
+MVietnam 75.3/
+(cambodia 69.6
+(New Zealand 81.9
+DU Mongolia 69.7)
+MBrunei 75.2, x
+
+filtering
+
+grouping
+
+hiding
+
+cut and paste
+
+
+\
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+You want to be able to restrict values allowed in a cell and need to create a drop-down list of values from which users can choose. Which feature
+should you use?
+
+Conditional Formatting
+
+Protect Worksheet
+
+Allow Users to Edit Ranges
+
+Data Validation
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+In Excel, what do most formulas begin with?
+
+*
+
+(
+
+=
+
+:
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+A colleague shared an Excel file with you, and you want to display a worksheet that is hidden in it. How can you do that?
+
+Right-click any worksheet tab and select Unhide.
+
+On the View tab, click New Window.
+
+On the Review tab, click Unhide Sheet.
+
+On the Home tab, click Unhide.
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+Which chart type can display two different data series as different series types within the same chart?
+
+60%
+50%
+40%
+30%
+20%
+
+10%
+
+Austria Spain Portugal Germany France
+
+mmm Forested area (%)  —=—=Agricultural land (3) KR
+bubble chart
+
+XY chart
+
+clustered column
+
+combo chart
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+How can you see the data in column E?
+
+ 
+
+aA 8 G ° E
+
+1 First Last Address City Income
+2 Heather Bodiford 4263 Marion Street Shelburne )
+3 Roderick — Mccombs _3282 Ersel Street Dallas ee
+4 Linda Fisher 1262 Bird Spring Lane Houston sear
+5 Faye Malone 1135 Brownton Road Parker ait
+6 Eduardo Matheson 2539 Grand Avenue Orlando foie
+7 Julie Parker 2062 Breezewood Court Hutchinson nnn
+8 Ramon Weaver __—_3658 Snyder Avenue Charlotte ae
+9 |edith Gabaldon 1940 Watson Lane Runge ser
+10 Robert Hansel 4929 Red Bud Lane Teterboro sar
+11 Wendy Austin 2787 Patterson Road Queens fiat
+12 Joanne Pulido 3773 Mount Tabor New York nwt
+
+Close the workbook without saving and reopen it.
+
+Turn off conditional formatting.
+
+On the Home tab of the ribbon, select Fit to Column.
+
+Expand the width of its column.
+
