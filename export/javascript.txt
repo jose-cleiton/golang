@@ -1,6 +1,6 @@
 ________________________________________________________
 
-Vou refazer as perguntas de MongoDB e gostaria qua vc me desse qual
+Vou refazer as perguntas de PHP e gostaria qua vc me desse qual
  o numero da alternativa correta 
  nao precisa explicação
 

@@ -1,0 +1,242 @@
+_________________________________________________________________________
+
+
+Qual o número da alternativa correta?
+
+What is a key difference between GET and POST?
+
+GET displays the submitted data as part of the URL. During Post, this information is not shown, as it's encoded in the request body.
+
+GET is intended for changing the server state and it carries more data than POST.
+
+GET is used with the HTTP protocol. PosT is used with HTTPS.
+
+GET is more secure than Post and should be used for sensitive information.
+_________________________________________________________________________
+
+
+Qual o número da alternativa correta?
+
+
+What is the best way to explain what this script does?
+
+1 if (!$_SESSION[ 'myusername' })
+
+24
+
+3 header('location: /login.php');
+4 exit;
+
+5}
+
+Cookies are starting to be stored as a result of this script.
+
+This script is on a page that requires the user to be logged in. It checks to see if the user has a valid session.
+
+This script validates the username and password.
+
+This script times out the session for myusername.
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+Which code snippet uses the correct syntax for creating an instance of the Pet class?
+
+Scat = new Pet();
+
+$horse = (new Pet);
+
+$dog = new Pet;
+
+all of these answers
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+Create an associative array using $array1 as the keys and $array2 as the values:
+
+$arrayl = [‘country', ‘capital’, ‘language'];
+
+Sarray2 = ['France', ‘Paris’, ‘French'];
+
+
+ $array3 = array_combine($arrayl, $array2);
+ $array3 = array_keys($arrayl, $array2);
+ $array3 = array_merge($arrayl, $array2);
+
+ $array3 = array_union($arrayl, $array2);
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+What is the output of this script?
+
+1 $believable = 'false';
+2 $myth = 'The moon is made of green cheese';
+3 $cale = 10*#3+1;
+4 if ($believable) {
+5 echo $myth;
+
+6 } else {
+
+7 echo $calc;
+
+8}
+
+The moon is made of green cheese
+
+31
+
+1001
+
+10000
+
+
+
+What does this script do?
+
+1 $email = filter_input(INPUT_POST, ‘email’, FILTER_VALIDATE_EMAIL);
+2 if ($email false) {
+Please re-enter valid email";
+
+ 
+
+3 Semailerr
+
+4}
+
+
+
+
+1-It makes sure the email address is a good and functioning address.
+
+2-It assigns an email to a variable and then removes all illegal characters from the $email variable.
+
+3-It makes an email safe to input into a database.
+
+4-It verifies that an email address is well formed.
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+What is the output of this script?
+
+1 $my_text = ‘The quick grey [squirrel].';
+2) preg_match('#\[((.*?)\]#', Smy_text, $match);
+3 print $match[1]."\n";
+
+The quick grey [squirrel].
+
+The quick grey squirrel.
+
+squirrel
+
+[squirrel]
+
+
+
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+Why does this code trigger an error?
+
+$string = ‘Shylock in Shakespeare's "Merchant of Venice" demands his pound of flesh
+
+1-All single and double quotes inside a string need to be escaped by backslashes to prevent a parse error.
+
+2-The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
+
+3-The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
+
+4-Strings should always be wrapped in double quotes; and double quotes inside a string should be escaped by backslashes.
+_________________________________________________________________________
+
+Qual o número da alternativa correta?
+
+
+
+You want to find out what day Twelfth Night falls on after Christmas 2018. Which code should you use?
+
+
+
+1- $twelfth_night = strtotime('December 25, 2018 + 12 days’);
+echo strftime('%d', $twelfth_night);
+
+2- $xmas = new DateTime('Dec 25, 2018');
+$twelfth_night = $xmas->add(strtotime('12 days'));
+echo $twelfth_night->format('D');
+
+3- $xmas = new DateTime('Dec 25, 2018');
+$twelfth_night = $xmas-&gt;add(new DateInterval('P12D'));
+echo $twelfth_night-&gt;format('1');
+
+4- $twelfth_night = strtotime('December 25, 2018 + 12 days’);
+echo date('d', $twelfth_night) ;
+
+por favor só a alternativa correta
+Which command will extract the domain suffix ("com") from the string $string = “https: //cat-bounce.com";?
+
+1-$string. substr(-3)
+
+2-sub($string, -3)
+
+3-substr($string, -3)
+
+4-substr($string, 3)
+_________________________________________________________________________
+por favor só a alternativa correta
+What are some of the main types of errors in PHP?
+
+1-semantic, logical, syntax
+
+2-notices, warnings, fatal
+
+3-runtime, logical, compile
+
+4-warnings, syntax, compile
+_________________________________________________________________________
+por favor só a alternativa correta
+
+Which code will return the IP address of the client?
+
+getenv ("REMOTE_ADDR")
+
+$HTTP_SERVER_VARS("REMOTE_IP")
+
+$_SERVER["HTTP_X_FORWARDED_FOR" }
+
+$_SESSION[ "REMOTE_ADDR" ];
+
+_________________________________________________________________________
+por favor responda com o numero da alternativa e a alternativa correta
+_________________________________________________________________________
+por favor só a alternativa correta
+
+Assuming the Horse class exists, which is a valid example of inheritance in PHP?
+
+
+class Unicorn implements Horse {}
+class Alicorn imports Pegasus, Unicorn {}
+class Horse inherits Unicorn {}
+class Pegasus extends Horse {}
+
+_________________________________________________________________________
+por favor responda com o numero da alternativa e a alternativa correta
+
+What might be the cause of the error "Cannot modify header information
+- headers already sent"?
+
+You are most likely missing a semicolon.
+You are trying use a key on an array that does not exist.
+Some HTML is being sent before a header() command that you're
+using for a redirect.
+You are trying to modify a value that is private.
+_________________________________________________________________________
+por favor responda com o numero da alternativa e a alternativa correta
+
+Your site must allow uploading of large files. What might you need to do?
+Algo errado com essa pergunta? Dar feedback
+Q15/15 0124 Visualizar resultados
+Keep a count of upload file sizes and log them.
+Change the upload_max_filesize configuration parameter.
+Be sure to use chunked transfer encoding.
+Make sure the user has the proper permissions.
